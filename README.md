@@ -1,2 +1,3 @@
-Hi, this is the source code of a little project called XanvicOS. 
-This is a little project created to see how an Operative System works.
+**What is XanvicOS?**
+This is the source code of a little project called XanvicOS. 
+I created it to see how an Operative System works.
