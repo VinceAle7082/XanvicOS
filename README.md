@@ -1,4 +1,14 @@
-**What is XanvicOS?**
+Hey all, Vincenzo Aleskey Brocato (VinceAle7082) here! <hr>
+This is a little project where I try to make an OS just for fun <hr>
 <hr>
-This is the source code of a little project called XanvicOS.<br /> 
-I created it to see how an Operative System works.<br />
+**What is XanvicOS?**
+<br>
+XanvicOS is the name of this OS, I'll try to make an OS with a 16 and 64 bit mode (like the Windows 9x series, excluding Windows ME). <hr>
+In this OS will be possible to run natively linux executables, and there will be a source-based package manager (like Gentoo GNU/Linux's portage) <hr>
+<hr>
+**What can I do to contribute to this project?**
+<br>
+You can fix issues, help me find a better name, add features to the kernel...
+<hr>
+<hr>
+PS: if I wrote something wrong, sorry, English isn't my first language. 
