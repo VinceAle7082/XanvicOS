@@ -10,5 +10,6 @@ In this OS will be possible to run natively linux executables, and there will be
 <hr>
 You can fix issues, help me find a better name, add features to the kernel...
 <br>
+<hr>
 <br>
 PS: if I wrote something wrong, sorry, English isn't my first language. 
