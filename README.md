@@ -10,7 +10,7 @@ In this OS will be possible to run natively linux executables, and there will be
 
 ***How can I contribute to this project?***
 <hr>
-You can fix issues, help me find a better name, add features to the kernel...
+You can fix issues, help me find a better name, add features to the kernel and other things, just add something to this project ;)
 <br>
 <hr>
 <br>
