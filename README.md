@@ -9,8 +9,8 @@ This is a little project where I try to make an OS just for fun <br>
   ***What exacly is XanvicOS?***
 </h3>
 <br>
-XanvicOS is the development name for this OS (the final name will be something like TearOS or SunShine OS), I'll try to make an OS with a 16 and 64 bit mode (like the Windows 9x series, excluding Windows ME). <hr>
-In this OS will be possible to run natively linux executables, and there will be a source-based package manager (like Gentoo GNU/Linux's portage) <hr>
+XanvicOS is the development name for this OS (the final name will be something like TearOS or SunShine OS), I'll try to make an OS with a 16 and 64 bit mode (like the Windows 9x series, excluding Windows ME). <br>
+In this OS will be possible to run natively linux executables, and there will be a source-based package manager (like Gentoo GNU/Linux's portage) <br>
 
 <h3>
   
