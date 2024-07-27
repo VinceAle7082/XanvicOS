@@ -101,28 +101,28 @@ start:
 	xor bx, bx
 	mov di, buffer
 
-.cerca_kernel:
-	mov si, file_kernel_bin
+.cerca_stage2:
+	mov si, file_stage2_bin
 	mov cx, 11
 	push di
 	repe cmpsb
 	pop di
-	je .kernel_trovato
+	je .stage2_trovato
 
 	add di, 32
 	inc bx
 	cmp bx, [dir_entries_count]
-	jl .cerca_kernel
+	jl .cerca_stage2
 
 	;Kernel non trovato
-	jmp errore_kernel_non_trovato
+	jmp errore_stage2_non_trovato
 
-.kernel_trovato:
-	mov si, msg_kernel_trovato
+.stage2_trovato:
+	mov si, msg_stage2_trovato
 	call puts
 
 	mov ax, [di + 26]
-	mov [kernel_cluster], ax
+	mov [stage2_cluster], ax
 
 	mov ax, [reserved_sectors]
 	mov bx, buffer 
@@ -130,12 +130,12 @@ start:
 	mov dl, [ebr_drive_number]
 	call lettura_disco
 
-	mov bx, KERNEL_LOAD_SEGMENT
+	mov bx, STAGE2_LOAD_SEGMENT
 	mov es, bx
-	mov bx, KERNEL_LOAD_OFFSET
+	mov bx, STAGE2_LOAD_OFFSET
 
-.carica_kernel:
-	mov ax, [kernel_cluster]
+.carica_stage2:
+	mov ax, [stage2_cluster]
 	add ax, 31
 
 	mov cl, 1
@@ -144,7 +144,7 @@ start:
 
 	add bx, [bytes_per_sector]
 
-	mov ax, [kernel_cluster]
+	mov ax, [stage2_cluster]
 	mov cx, 3
 	mul cx
 	mov cx, 2
@@ -168,18 +168,17 @@ start:
 	cmp ax, 0x0FF8
 	jae .fine_lettura
 
-	mov [kernel_cluster], ax
-	jmp .carica_kernel
+	mov [stage2_cluster], ax
+	jmp .carica_stage2
 
 .fine_lettura:
 	mov dl, [ebr_drive_number]
 	
-	mov ax, KERNEL_LOAD_SEGMENT
+	mov ax, STAGE2_LOAD_SEGMENT
 	mov ds, ax
 	mov es, ax
 
-	jmp KERNEL_LOAD_SEGMENT:KERNEL_LOAD_OFFSET
-	jmp premi_per_riavviare
+	jmp STAGE2_LOAD_SEGMENT:STAGE2_LOAD_OFFSET
 
 ;Trasforma/Converte un indirizzo LBA in uno CHS
 
@@ -280,11 +279,11 @@ msg_caricamento:
 msg_errore_lettura:
 	db 'Errore del disco', ENDL, 0
 
-msg_kernel_non_trovato:
-	db 'Kernel non trovato', ENDL, 0
+msg_stage2_non_trovato:
+	db 'Stage 2 non trovato', ENDL, 0
 
-msg_kernel_trovato:
-	db 'Kernel trovato', ENDL, 0
+msg_stage2_trovato:
+	db 'Stage 2 trovato', ENDL, 0
 
 ;Errori
 
@@ -293,17 +292,17 @@ errore_floppy:
 	call puts
 	jmp premi_per_riavviare
 
-errore_kernel_non_trovato:
-	mov si, msg_kernel_non_trovato
+errore_stage2_non_trovato:
+	mov si, msg_stage2_non_trovato
 	call puts
 	jmp premi_per_riavviare
 
 ;Variabili
 
-file_kernel_bin:				db 'KERNEL  BIN'
-kernel_cluster:					dw 0
-KERNEL_LOAD_SEGMENT 			equ 0x2000
-KERNEL_LOAD_OFFSET				equ 0
+file_stage2_bin:				db 'STAGE2  BIN'
+stage2_cluster:					dw 0
+STAGE2_LOAD_SEGMENT 			equ 0x2000
+STAGE2_LOAD_OFFSET				equ 0
 
 ;Cose che non so dove mettere
 
