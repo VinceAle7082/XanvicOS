@@ -12,6 +12,12 @@ In this OS will be possible to run natively linux executables, and there will be
 <hr>
 You can fix issues, help me find a better name, add features to the kernel and other things, just add something to this project ;)
 <br>
+
+***Why are there 2 branches?***
+<hr>
+The main branch is the branch where I push the "mega commits" with working code, adding features to XanvicOS (or how do you want to call it). <hr>
+I don't like writing code for hours, days and then push the commit and write a lot, so I chose to create the Coding branch, where I commit more actively, but the code is unfinished, so it may contain a lot of bugs and errors, or simply doesn't compile. <hr>
+If you want to try XanvicOS, use the main branch.
 <hr>
 <br>
 PS: if I wrote something wrong, sorry, English isn't my first language. 
