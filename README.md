@@ -1,3 +1,5 @@
+<h1>This is the "Coding" branch, this code is or full of bugs and errors or doesn't compile directly, please use the main branch!</h2>
+
 Hey all, Vincenzo Aleskey Brocato (VinceAle7082) here! <br>
 This is a little project where I try to make an OS just for fun <br>
 <br>
