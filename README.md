@@ -1,7 +1,9 @@
+<h2>This is the "Coding" branch, the code in this branch is full of bugs and errors or simply doesn't compile, please use the main branch!</h2>
+<hr>
+
 Hey all, Vincenzo Aleskey Brocato (VinceAle7082) here! <br>
 This is a little project where I try to make an OS just for fun <br>
 <br>
-<hr>
 <h3>
   
   ***What exacly is XanvicOS?***
@@ -26,6 +28,5 @@ The main branch is the branch where I push the "mega commits" with working code,
 I don't like writing code for hours, days and then push the commit and write a lot, so I chose to create the Coding branch, where I commit more actively, but the code is unfinished, so it may contain a lot of bugs and errors, or simply doesn't compile. <br>
 If you want to try XanvicOS, use the main branch.
 <br>
-<hr>
-
+<br>
 PS: if I wrote something wrong, sorry, English isn't my first language. 
