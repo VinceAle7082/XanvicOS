@@ -27,4 +27,3 @@ If you want to try XanvicOS, use the main branch.
 <br>
 <br>
 PS: if I wrote something wrong, sorry, English isn't my first language. 
-PPS: I'm compiling Gentoo, I can't write code today.
