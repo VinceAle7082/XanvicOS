@@ -1,2 +1,35 @@
-stdio.h(4): Warning! W138: No newline at end of file
+stdio.h(5): Warning! W138: No newline at end of file
 x86.h(4): Warning! W138: No newline at end of file
+stdio.c(31): Error! E1024: Declared symbol 'printf' is not in parameter list
+stdio.c(31): Error! E1076: Missing semicolon at end of declaration
+stdio.c(32): Error! E1034: Symbol 'argp' already defined
+stdio.c(32): Note! I2002: 'argp' defined in: stdio.c(28)
+stdio.c(32): Error! E1011: Symbol 'fmt' has not been declared
+stdio.c(34): Error! E1034: Symbol 'length' already defined
+stdio.c(34): Note! I2002: 'length' defined in: stdio.c(28)
+stdio.c(35): Error! E1034: Symbol 'radix' already defined
+stdio.c(35): Note! I2002: 'radix' defined in: stdio.c(28)
+stdio.c(36): Error! E1034: Symbol 'sign' already defined
+stdio.c(36): Note! I2002: 'sign' defined in: stdio.c(28)
+stdio.c(38): Error! E1029: Expression must be 'pointer to ...'
+stdio.c(43): Error! E1029: Expression must be 'pointer to ...'
+stdio.c(49): Error! E1029: Expression must be 'pointer to ...'
+stdio.c(49): Error! E1151: Parameter count does not agree with previous definition
+stdio.c(49): Note! I2002: 'putc' defined in: stdio.c(4)
+stdio.c(54): Error! E1029: Expression must be 'pointer to ...'
+stdio.c(66): Error! E1038: Expecting label for goto statement
+stdio.c(71): Error! E1029: Expression must be 'pointer to ...'
+stdio.c(78): Error! E1038: Expecting label for goto statement
+stdio.c(83): Error! E1029: Expression must be 'pointer to ...'
+stdio.c(28): Warning! W303: Parameter 'sign' has been defined, but not referenced
+stdio.c(28): Warning! W303: Parameter 'length' has been defined, but not referenced
+stdio.c(28): Warning! W303: Parameter 'radix' has been defined, but not referenced
+stdio.c(28): Warning! W303: Parameter 'argp' has been defined, but not referenced
+stdio.c(132): Warning! W107: Missing return value for function 'printf_number'
+stdio.c(135): Error! E1034: Symbol 'printf_number' already defined
+stdio.c(137): Warning! W138: No newline at end of file
+stdio.c(134): Warning! W303: Parameter 'sign' has been defined, but not referenced
+stdio.c(134): Warning! W303: Parameter 'length' has been defined, but not referenced
+stdio.c(134): Warning! W303: Parameter 'radix' has been defined, but not referenced
+stdio.c(134): Warning! W303: Parameter 'argp' has been defined, but not referenced
+stdio.c(137): Warning! W107: Missing return value for function 'printf_number'

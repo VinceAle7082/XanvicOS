@@ -8,5 +8,7 @@ typedef signed long int int32_t;
 typedef unsigned long int uint32_t;
 typedef signed long int int64_t;
 typedef unsigned long int uint64_t;
+typedef uint8_t bool;
 
-
+#define true 1
+#define false 0
