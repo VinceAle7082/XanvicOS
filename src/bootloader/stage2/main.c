@@ -1,7 +1,7 @@
 #include "stdint.h"
 #include "stdio.h"
 
-void _cdecl  cstart_(uint16_t bootDrive)
+void _cdecl cstart_(uint16_t bootDrive)
 {
     puts("Hello World from the Stage 2 of the bootloader written in C!");
     for (;;);
