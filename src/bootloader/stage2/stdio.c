@@ -143,7 +143,39 @@ int* printf_number(int* argp, int length, bool sign, int radix)
         case PRINTF_LENGTH_SHORT_SHORT:
         case PRINTF_LENGTH_SHORT:
         case PRINTF_LENGTH_LONG:
+            if (sign)
+            {
+                long int n = *(long int*)argp;
+                if (n < 0)
+                {
+                    n = -n;
+                    number_sign = -1;
+                }
+                number = (unsigned long long)n;
+            }
+            else
+            {
+                number = (*unsigned long int*)argp;
+            }
+            argp += 2;
+            break;
         case PRINTF_LENGTH_LONG_LONG:
+            if (sign)
+            {
+                long long int n = *(long long int*)argp;
+                if (n < 0)
+                {
+                    n = -n;
+                    number_sign = -1;
+                }
+                number = (unsigned long long)n;
+            }
+            else
+            {
+                number = (*unsigned long long int *)argp;
+            }
+            argp += 4;
+            break;
         case PRINTF_LENGTH_DEFAULT:
             if (sign)
             {
@@ -162,5 +194,19 @@ int* printf_number(int* argp, int length, bool sign, int radix)
             }
             argp++;
             break;
-        }
+    }
+    do
+    {
+        uint32_t rem = number % radix;
+        buffer[pos++] = g_HexChars[rem];
+    } while (number > 0);
+
+    if (sign && number_sign < 0)
+    {
+        buffer[pos++] = '-';
+    }
+
+    while (--pos >= 0)
+        putc(buffer[pos]);
+    return argp;
 }
