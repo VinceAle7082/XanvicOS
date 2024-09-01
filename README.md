@@ -1,4 +1,4 @@
-<h2>This is the "Coding" branch, the code in this branch is full of bugs and errors or simply doesn't compile, please use the main branch!</h2>
+<h2>This is the main branch, the code in this branch is full of bugs and errors or simply doesn't compile, please use the main branch!</h2>
 <hr>
 
 Hey all, Vincenzo Aleskey Brocato (VinceAle7082) here! <br>
