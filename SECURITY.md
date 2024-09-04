@@ -12,4 +12,4 @@ These are the supported versions:
 
 ## Reporting a Vulnerability
 
-Create an Issue, congratulations, you reported a vulnerability!
+Create an Issue, select vulnerability, write about it and congratulations, you reported a vulnerability!
