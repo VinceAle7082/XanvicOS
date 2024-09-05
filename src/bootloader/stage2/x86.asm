@@ -21,3 +21,7 @@ _x86_Video_WriteCharTeletype:
     pop bp
 
     ret
+
+global _x86_div64_32
+
+_x86_div64_32:
