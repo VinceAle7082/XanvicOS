@@ -232,8 +232,8 @@ int *printf_number(int *argp, int length, bool sign, int radix)
     // convert number to ASCII
     do
     {
-        uint32_t rem;
-        x86_div64_32(number, radix, &number, &rem);
+        uint32_t rem = number % radix;
+        number = number / radix;
         buffer[pos++] = g_HexChars[rem];
     } while (number > 0);
 
