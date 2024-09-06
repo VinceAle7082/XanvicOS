@@ -9,7 +9,7 @@ This is a little project where I try to make an OS just for fun <br>
   ***What exacly is XanvicOS?***
 </h3>
 <br>
-XanvicOS is a little project written by me when I have time to. I want to create an os that can run 16, 32 and 64 bit binaries, in future there will be a package manager, and in soe time maybe even linux binaries support. <br>
+XanvicOS is a little project written by me when I have time to. I want to create an os that can run 16, 32 and 64 bit binaries, in future there will be a package manager, and in some time maybe even linux binaries support. <br>
 I also want to create a windows manager with some features that I like. If you want to help, you can. <br>
 
 <h3>
