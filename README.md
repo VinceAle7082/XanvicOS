@@ -9,18 +9,10 @@ This is a little project where I try to make an OS just for fun <br>
   ***What exacly is XanvicOS?***
 </h3>
 <br>
-XanvicOS is the development name for this OS (the final name will be something like TearOS or SunShine OS), I'll try to make an OS with a 16 and 64 bit mode (like the Windows 9x series, excluding Windows ME). <br>
-In this OS will be possible to run natively linux executables, and there will be a source-based package manager (like Gentoo GNU/Linux's portage) <br>
+XanvicOS is a little project written by me when I have time to. I want to create an os that can run 16, 32 and 64 bit binaries, in future there will be a package manager, and in soe time maybe even linux binaries support. <br>
+I also want to create a windows manager with some features that I like. If you want to help, you can. <br>
 
 <h3>
-  
-  ***How can I contribute to this project?***
-</h3>
-<br>
-You can fix issues, help me find a better name, add features to the kernel and other things, just add something to this project ;)
-
-<h3>
-  
   ***Why are there 2 branches?***
 </h3>
 <br>
