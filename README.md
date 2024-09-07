@@ -18,5 +18,14 @@ I created the stable branch so someone can try XanvicOS, without worring if the 
 It's like mainline and stable linux kernels, only that, how I already said before, the main branch may not compile.<br>
 If you want to try XanvicOS, clone the stable branch, if you want to contribute, use the main one. <br>
 <br>
+
+<h3>
+  How to compile XanvicOS?  
+</h3>
+<br>
+Here --> https://github.com/VinceAle7082/XanvicOS/wiki/How-to-build
+<br>
+
+<br>
 <br>
 PS:if I wrote something wrong, sorry, English isn't my first language. 
