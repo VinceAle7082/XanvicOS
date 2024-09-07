@@ -28,4 +28,4 @@ Here --> https://github.com/VinceAle7082/XanvicOS/wiki/How-to-build
 
 <br>
 <br>
-PS:if I wrote something wrong, sorry, English isn't my first language. 
+PS: if I wrote something wrong, sorry, English isn't my first language. 
