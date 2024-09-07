@@ -1,10 +1,10 @@
 FORMAT RAW BIN
 OPTION QUIET,
-    NODEFAULTLIBS,
-    START=entry,
-    VERBOSE,
-    OFFSET=0,
-    STACK=0X200
+       NODEFAULTLIBS,
+       START=entry,
+       VERBOSE,
+       OFFSET=0,
+       STACK=0x200
 ORDER
     CLNAME CODE
         SEGMENT _ENTRY
