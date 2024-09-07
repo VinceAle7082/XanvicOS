@@ -1,6 +1,3 @@
-<h2>This is the main branch, the code in this branch is full of bugs and errors or simply doesn't compile, please use the Stable branch!</h2>
-<hr>
-
 Hey all, Vincenzo Aleskey Brocato (VinceAle7082) here! <br>
 This is a little project where I try to make an OS just for fun <br>
 <br>
