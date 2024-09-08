@@ -1,8 +1,10 @@
 Hey all, Vincenzo Aleskey Brocato (VinceAle7082) here! <br>
 This is a little project where I try to make an OS just for fun <br>
 <br>
+<div style="text-align: center">
+  <img src="XanvicOS.png" style="width: 426px; height: 240px" />
+</div>
 <h3>
-  
   What exactly is XanvicOS?
 </h3>
 <br>
@@ -20,7 +22,7 @@ If you want to try XanvicOS, clone the stable branch, if you want to contribute,
 <br>
 
 <h3>
-  How to compile XanvicOS?  
+  How to compile XanvicOS?
 </h3>
 <br>
 Here --> https://github.com/VinceAle7082/XanvicOS/wiki/How-to-build
@@ -28,4 +30,4 @@ Here --> https://github.com/VinceAle7082/XanvicOS/wiki/How-to-build
 
 <br>
 <br>
-PS: if I wrote something wrong, sorry, English isn't my first language. 
+PS: if I wrote something wrong, sorry, English isn't my first language.
