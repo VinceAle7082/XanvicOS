@@ -25,7 +25,7 @@ large_sector_count:		dd 0
 ebr_drive_number:			db 0
 							db 0
 ebr_signature:				db 29h
-ebr_volume_id:				db 12h, 34h, 56h, 78h	
+ebr_volume_id:				db 12h, 34h, 56h, 78h
 ebr_volume_label:			db 'XanvicOS   '
 ebr_system_id:				db 'FAT12   '
 
@@ -87,7 +87,7 @@ start:
 
 	test dx, dx
 	jz .root_dopo
-	inc ax 
+	inc ax
 
 .root_dopo:
 	;Legge la root
@@ -125,7 +125,7 @@ start:
 	mov [stage2_cluster], ax
 
 	mov ax, [reserved_sectors]
-	mov bx, buffer 
+	mov bx, buffer
 	mov cl, [sectors_per_fat]
 	mov dl, [ebr_drive_number]
 	call lettura_disco
@@ -173,7 +173,7 @@ start:
 
 .fine_lettura:
 	mov dl, [ebr_drive_number]
-	
+
 	mov ax, STAGE2_LOAD_SEGMENT
 	mov ds, ax
 	mov es, ax
@@ -185,10 +185,10 @@ start:
 lba_to_chs:
 	push ax
 	push dx
-	
+
 	xor dx, dx
 	div word [sectors_per_track]
-	
+
 	inc dx
 	mov cx, dx
 
@@ -255,12 +255,12 @@ puts:
     push bx
 
 .loop:
-    lodsb            
-    or al, al           ; verify if next character is n
+    lodsb
+    or al, al
     jz .fine
 
-    mov ah, 0x0E        ; call bios interrupt
-    mov bh, 0           ; set page number to 0
+    mov ah, 0x0E
+    mov bh, 0
     int 0x10
 
     jmp .loop
@@ -268,7 +268,7 @@ puts:
 .fine:
     pop bx
     pop ax
-    pop si    
+    pop si
     ret
 
 ;Mostra delle stringhe sullo schermo
@@ -309,7 +309,7 @@ STAGE2_LOAD_OFFSET				equ 0
 premi_per_riavviare:
 	mov ah, 0
 	int 16h
-	jmp 0FFFFh:0 
+	jmp 0FFFFh:0
 
 times 510-($-$$) db 0
 dw 0AA55h
