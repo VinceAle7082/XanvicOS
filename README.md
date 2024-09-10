@@ -1,6 +1,3 @@
-<div style="text-align: center">
-  <img src="XanvicOS.png" style="width: 426px; height: 240px" />
-</div>
 Hey all, Vincenzo Aleskey Brocato (VinceAle7082) here! <br>
 This is a little project where I try to make an OS just for fun <br>
 <br>
