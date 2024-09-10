@@ -5,7 +5,8 @@ void _cdecl cstart_(uint16_t bootDrive)
 {
     const char far* far_str = "far string";
 
-    printf("Hello world from printf!");
+    puts("Hello World from Stage2!");
+    printf("Hello World from printf!");
     for (;;);
 
 }
