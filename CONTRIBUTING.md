@@ -9,3 +9,5 @@
 <br>
 -Do something stupid;
 <br>
+-Don't respect others;
+<br>
