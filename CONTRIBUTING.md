@@ -5,7 +5,7 @@
 <br>
 -Harm and/or harass someone:
 <br>
--Submit broken code / Submit code that breaks all the code;
+-Submit code bugged af;
 <br>
 -Do something stupid;
 <br>
