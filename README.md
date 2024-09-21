@@ -22,7 +22,7 @@ If you want to try XanvicOS, clone the stable branch, if you want to contribute,
   How to compile XanvicOS?
 </h3>
 <br>
-Here --> https://github.com/VinceAle7082/XanvicOS/wiki/How-to-build
+Here --> https://vinceale7082.is-a.dev/xanvicos/wiki/important_things.html
 <br>
 
 <br>
