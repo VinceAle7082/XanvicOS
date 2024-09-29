@@ -1,5 +1,9 @@
-XanvicOS is a project made to explore the OS developing world and, maybe, make some friends.
-XanvicOS is a hobby project where we respect each other.
+
+# What we want
+
+XanvicOS is this little project that I write because I want to explore OS developing, and maybe make some friends.
+So, I want that everyone in this project we'll respect each other, because without respect nothing can be done.
+This project isn't nothing serius, just a hobby project.
 
 # Here is what you can't do
 
@@ -14,7 +18,7 @@ Pretty much for the same reason as the license: it exist, it has been chosen, pl
 
 ## Hurt and/or harass someone
 
-If you don't understand why, we DON'T need more people like you. As the second line says, we need to respect each other, so let's do it, no?
+If you don't understand why, we DON'T need more people like you. As I already wrote in "What we want", we need to respect each other, so let's do it, no?
 
 ## Do something stupid
 
