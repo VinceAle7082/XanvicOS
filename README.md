@@ -1,4 +1,4 @@
-# Hey all, Vincenzo Aleskey Brocato (VinceAle7082) here! <br>
+Hey all, Vincenzo Aleskey Brocato (VinceAle7082) here! <br>
 This is a little project where I try to explore OS developing just for fun!<br>
 
 ## What exactly is XanvicOS?
