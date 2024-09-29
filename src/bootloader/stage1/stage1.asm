@@ -274,16 +274,16 @@ puts:
 ;Mostra delle stringhe sullo schermo
 
 msg_caricamento:
-	db 'Caricamento...', ENDL, 0
+	db 'Loading...', ENDL, 0
 
 msg_errore_lettura:
-	db 'Errore del disco', ENDL, 0
+	db 'Reading disk error!', ENDL, 0
 
 msg_stage2_non_trovato:
-	db 'Stage 2 non trovato', ENDL, 0
+	db 'Stage 2 not found!', ENDL, 0
 
 msg_stage2_trovato:
-	db 'Stage 2 trovato', ENDL, 0
+	db 'Stage 2 found!', ENDL, 0
 
 ;Errori
 
