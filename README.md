@@ -13,7 +13,7 @@ If you want to try XanvicOS, clone the stable branch, if you want to contribute,
 Features will be added to the stable branch after the main one<br>
 
 ## How to compile XanvicOS?
-Read this --> https://vinceale7082.is-a.dev/xanvicos/wiki/important_things.html
+[Read this](https://vinceale7082.is-a.dev/xanvicos/wiki/important_things.html)
 
 <br>
 PS: if I wrote something wrong, sorry, English isn't my first language.
