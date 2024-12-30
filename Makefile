@@ -6,7 +6,7 @@ LD16=/usr/bin/watcom/binl/wlink
 SRC_DIR=src
 BUILD_DIR=build
 
-.PHONY: all immagine_floppy kernel bootloader clean always
+.PHONY: all immagine_floppy kernel bootloader always clean
 
 
 #Immagine floppy
@@ -54,6 +54,6 @@ always:
 #Clean
 
 clean:
-	rm -rf $(BUILD_DIR)/* 
+	rm $(BUILD_DIR)/* -rf
 
 #Strumenti
