@@ -1,4 +1,4 @@
-<img src="https://vinceale7082.is-a.dev/xanvicos/xanvicos.png" width=50% height=50%>
+<img src="https://vinceale7082.com/xanvicos/xanvicos.png" width=50% height=50%>
 
 Hey all, Vincenzo Aleskey Brocato (VinceAle7082) here! <br>
 This is a little project where I try to explore OS developing just for fun!<br>
@@ -15,7 +15,7 @@ If you want to try XanvicOS, clone the stable branch, if you want to contribute,
 Features will be added to the stable branch after the main one<br>
 
 ## How to compile XanvicOS?
-[Read this](https://vinceale7082.is-a.dev/xanvicos/wiki/important_things.html)
+[Read this](https://vinceale7082.com/xanvicos/wiki/important_things.html)
 
 <br>
 PS: if I wrote something wrong, sorry, English isn't my first language.
