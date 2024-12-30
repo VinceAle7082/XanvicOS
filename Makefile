@@ -55,5 +55,3 @@ always:
 
 clean:
 	rm $(BUILD_DIR)/* -rf
-
-#Strumenti
