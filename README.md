@@ -1,4 +1,4 @@
-<img src="/xanvicos/xanvicos.png" width=50% height=50%>
+<img src="/VinceAle7082/XanvicOS/xanvicos.png" width=50% height=50%>
 
 Hey all, Vincenzo Aleskey Brocato (VinceAle7082) here! <br>
 This is a little project where I try to explore OS developing just for fun!<br>
